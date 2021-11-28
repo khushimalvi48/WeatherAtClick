@@ -1,0 +1,30 @@
+<%-include('../partials/header')%>
+<body>
+    <%-include('../partials/navbar')%>
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center" >
+                        <figure class="errimg">
+                            <img src="images/404err.jpg" alt="khushi" class="img-fluid">
+                        </figure>
+                    
+                        <p>Welcome to weather app</p>
+                        <h1><%= errmsg%></h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                    <!--right side div-->
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%-include('../partials/footer')%>
+</body>
+
+</html>
